@@ -1,0 +1,30 @@
+.MainCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: wheat;
+}
+.MainCont img {
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px grey;
+}
+.MainCont p {
+  width: 700px;
+  line-height: 30px;
+}
+.MainCont hr {
+  width: 300px;
+}
+.MainCont h4 {
+  margin: 0;
+}
+.MainCont table {
+  border-collapse: collapse;
+  width: 500px;
+}
+.MainCont table th,
+.MainCont table td {
+  padding: 5px;
+}
